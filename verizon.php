@@ -46,6 +46,7 @@
 
 
 <?php
+
 $command = $_GET["g"];
 shell_exec("/usr/lib/cgi-bin/verizon.sh $command");
 ?>
